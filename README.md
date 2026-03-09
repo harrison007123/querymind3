@@ -60,10 +60,6 @@ No SQL knowledge required. Just describe what you want, and QueryMind generates 
 
 ## Installation
 
-### Run with Docker (Recommended)
-
-You can run QueryMind in an isolated container without installing Python dependencies on your host.
-
 ```bash
 docker run -it --rm --network host bennett007030/querymind3
 ```
@@ -81,11 +77,6 @@ irm https://raw.githubusercontent.com/harrison007123/querymind3/main/install.ps1
 curl -sSL https://raw.githubusercontent.com/harrison007123/querymind3/main/install.sh | bash
 ```
 
-### pip (All Platforms)
-
-```bash
-pip install querymind3
-```
 
 ### Install from Source
 
